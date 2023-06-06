@@ -25,7 +25,7 @@ public class Main {
 
         long totalSalary=0;
 
-        if (name=="Y"){
+        if (name.equals("Y")){
             for (DeptEmployee dpt:department) {
                 totalSalary+= dpt.computeSalary();
             }
