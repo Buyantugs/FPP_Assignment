@@ -1,5 +1,10 @@
 package day10;
 
+/**
+ * Day – 3
+ * Problem : 5
+ * @author Buyantugs
+ */
 public class Main {
     public static void main(String[] args) {
         Computer c1=new Computer("HP","Intel core i7",16,1200);

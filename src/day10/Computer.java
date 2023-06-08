@@ -1,8 +1,11 @@
 package day10;
-
-import javax.security.auth.login.CredentialNotFoundException;
 import java.util.Objects;
 
+/**
+ * Day – 3
+ * Problem : 5
+ * @author Buyantugs
+ */
 public class Computer {
     private String manufacturer;
     private String processor;
