@@ -5,7 +5,6 @@ public class MyTable {
         entries = new Entry[26];
     }
     public String get(char c) {
-        //implement
         for (int i = 0; i < entries.length; i++) {
             if (entries[i].ch == c) {
                 return entries[i].str;
@@ -15,9 +14,9 @@ public class MyTable {
     }
 
     public void add(char c, String s) {
-        int index = c - 'a';
-        if (index >= 0 && index < entries.length) {
-            entries[index] = new Entry(c, s);
+        int idx = c - 'a';
+        if (idx >= 0 && idx < entries.length) {
+            entries[idx] = new Entry(c, s);
         }
     }
 
@@ -37,7 +36,6 @@ public class MyTable {
         String str;
 
         Entry(char ch, String str) {
-            //implement
             this.ch = ch;
             this.str = str;
         }
