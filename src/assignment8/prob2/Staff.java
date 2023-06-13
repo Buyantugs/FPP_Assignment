@@ -1,4 +1,4 @@
-package assignment8;
+package assignment8.prob2;
 
 public final class Staff implements EmployeeData {
 	private String name;

@@ -1,4 +1,4 @@
-package assignment8;
+package assignment8.prob2;
 
 import java.util.ArrayList;
 import java.util.List;
