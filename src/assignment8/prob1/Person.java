@@ -17,7 +17,7 @@ public class Person {
     }
     @Override
     public String toString() {
-        return "Person [lastName=" + lastName + " FirstName=" + firstName +"Age=" + age + "]\n";
+        return "Person [lastName=" + lastName + " FirstName=" + firstName +" Age=" + age + "]\n";
     }
 
 }

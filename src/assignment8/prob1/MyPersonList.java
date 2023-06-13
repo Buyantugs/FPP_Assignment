@@ -79,30 +79,29 @@ public class MyPersonList {
     }
     public static void main(String[] args) {
         MyPersonList pl=new MyPersonList();
-        Person p0=new Person("Buyantugs","Luvsanhuu",40);
-        Person p1=new Person("Bold","Tuuuu",30);
-        Person p2=new Person("Tsetseg","Bbbb",20);
-        Person p3=new Person("Navch","Aaaaa",10);
-        Person p4=new Person("Chimeg","Oooo",5);
-        pl.add(p0);
-        pl.add(p1);
-        pl.add(p2);
-        pl.add(p3);
-        pl.add(p4);
+        pl.add(new Person("Buyantugs","Luvsanhuu",40));
+        pl.add(new Person("Bold","Tuuuu",30));
+        pl.add(new Person("Tsetseg","Bbbb",20));
+        pl.add(new Person("Navch","Aaaaa",10));
+        pl.add(new Person("Chimeg","Oooo",5));
+
+        Person obj=new Person("Last","First",100);
+
+
         System.out.println("The result of find command Bold="+pl.find("Buyantugs"));
-        System.out.println(p0.toString());
+        System.out.println(obj.toString());
 
         System.out.printf(pl.toString());
 
         System.out.println("Adding a object at person array list...");
         //Insert a person object index #5 at #2 position of Person array
-        pl.insert(p4,1);
+        pl.insert(obj,1);
         //Show the result
         System.out.printf(pl.toString());
 
         System.out.println("Removing a object from person array list...");
         //Remove a person object index #1 from the list
-        pl.remove(p1);
+        pl.remove(obj);
         //Show the result
         System.out.printf(pl.toString());
 
