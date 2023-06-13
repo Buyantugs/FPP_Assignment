@@ -9,6 +9,7 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		List<Staff> staff = new ArrayList<>();
+
 		staff.add(new Staff("John", 110000, 2));
 		staff.add(new Staff("Tom", 110000, 4));
 		staff.add(new Staff("Edward", 120000, 1));
